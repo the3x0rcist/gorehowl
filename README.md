@@ -1,17 +1,20 @@
 # gorehowl - SSH BRUTEFORCE
-===================
 
-Installation:
+
+###Installation:
 
 1. Install python first:
-- for linux or mac: 
+- for Linux users: 
 
 Sudo apt install python3
 
 
-- for windows: 
+- for Windows users: 
 
 https://www.python.org/downloads/windows/
+### Install Paramiko module:
+
+pip3 install paramiko
 
 # Clone the project
 
