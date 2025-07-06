@@ -1,7 +1,7 @@
 # gorehowl - SSH BRUTEFORCE
+---
 
-
-###Installation:
+### Installation:
 
 1. Install python first:
 - for Linux users: 
@@ -23,7 +23,11 @@ pip3 install paramiko
 3- Go in the project directory and then run the gorehowl.py
 
 default usage:
+python gorehowl.py -a hostname -w WORDLIST -u USERNAME
+example no.2:
+python gorehowl.py -a 192.168.1.100 -w wordlist.txt -u root
 
-python gorehowl.py [-a hostname] -w WORDLIST -u USERNAME -a HOSTNAME
+---
+Use it at your risk
 
 
